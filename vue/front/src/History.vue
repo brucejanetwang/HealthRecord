@@ -1,5 +1,5 @@
 <template>
     <div>
-        hello , world!
+        hello , history!
     </div>
 </template>

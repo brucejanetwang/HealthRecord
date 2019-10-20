@@ -10,7 +10,7 @@ import healthPage from './Health.vue'
 import historyPage from './History.vue'
 import homePage from './Home.vue'
 
-const route = new VueRoute({
+const router = new VueRoute({
   mode: 'history',
   base: __dirname,
   routes: [
@@ -25,6 +25,6 @@ Vue.use(VueRoute)
 Vue.use(ElementUI)
 new Vue({
   el: '#app',
-  route,
+  router,
   render: h => h(App)
 })
